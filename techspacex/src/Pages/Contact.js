@@ -1,5 +1,5 @@
 import React from 'react'
-import { Button, ListItemButton,ListItemText, Alert } from '@mui/material';
+import { Button, ListItemButton,ListItemText, Alert, CircularProgress } from '@mui/material';
 import IconButton from '@mui/material/IconButton';
 import { Fingerprint } from '@mui/icons-material'
 function Contact() {
@@ -16,6 +16,7 @@ function Contact() {
         </ListItemButton>
         <Alert severity='warning' variant='outlined'>Follow our official accounts</Alert>
         <Alert severity='success' variant='filled'>We are now available on Twitter!</Alert>
+        <CircularProgress />
         </>
   )
 }
